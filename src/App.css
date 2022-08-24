@@ -1,3 +1,123 @@
+*{
+  margin: 0;
+  padding : 0;
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  background-color: cadetblue;
+}
+h2, h4 {
+  font-size: 42px;
+  color: black;
+  padding: 5px 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.container {
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+
+.card_flex {
+  display: inline-block;
+}
+.card {
+  
+  min-width : 330px;
+  min-height: 250px;
+  display: inline-block;
+  margin: 15px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.1) ;
+}
+.card.one {
+  background-color: green;
+}
+.card.two {
+  background-color: rgb(127, 127, 208);
+}
+.card.three {
+  background-color: rgb(225, 219, 41);
+}
+.card.four {
+  background-color: rgb(229, 146, 12);
+}
+.card.five {
+  background-color: rgb(219, 35, 133);
+}
+.card.six {
+  background-color: rgb(14, 185, 219);
+}
+.card__name > strong {
+  color: white;
+  font-size: 36px;
+  text-shadow: 4px 6px 8px rgba(0,0,0,0.8);
+}
+
+.card__name {
+  
+  font-size: 18px ;
+  margin: 10px 15px;
+  font-weight: 700;
+  color: white;
+}
+.card__total {
+  font-size: 72px;
+  margin: 10px;
+  color: white;
+  text-shadow: 4px 6px 8px rgba(0,0,0,0.8);
+}
+@media only screen and (max-width: 400px) {
+  card {
+      margin: 15px auto;
+      
+  }
+}
+
+.box {
+  text-align: center;
+  height: 850px; 
+  width: 100%;
+  background-color: black;
+  border-top: 12px solid rgb(81, 81, 81);
+  /* border-bottom: 15px solid grey; */
+  
+}
+
+.headings {
+  margin-top: 75px;
+  
+  font-size: 56px;
+  color: white;
+}
+.detail {
+  color: white;
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 600;
+
+}
+.nflximg {
+  background-color: black;
+}
+@media only screen and (max-width: 400px) {
+  .nximg {
+      width: 100%;
+  }
+}
+
 .App {
   text-align: center;
 }
